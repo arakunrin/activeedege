@@ -1,0 +1,1 @@
+select * from t1 where t1.name not in ( select t2.name from t2) order by t1.name asc
